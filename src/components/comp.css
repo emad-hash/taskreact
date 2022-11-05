@@ -25,5 +25,12 @@ button{
     color: white;
 }
 .footer{
-    margin-top: 400px;
-background-color: black;}
+background-color: black;
+margin-top: 400px;
+height: 75px;
+}
+.footer h3 {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}

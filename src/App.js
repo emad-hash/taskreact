@@ -6,8 +6,9 @@ import Home from './components/Home';
 import Contact from './components/Contact';
 import Child from './components/Child';
 import Event from './components/Event';
-import TASK from './components/TASK';
+// import Tour from './components/Tour';
 import Footer from './components/Footer';
+import TourList from "./components/TourList";
 
 
 function App() {
@@ -16,8 +17,8 @@ function App() {
    <div>
     <nav>
     <ul>
-  <li><NavLink activeclassName="active" to="/">Home</NavLink></li>
-  <li><NavLink to="/TASK">TASK</NavLink></li>
+  <li><NavLink className="active" to="/">Home</NavLink></li>
+  <li><NavLink to="/Tour">Tour</NavLink></li>
   <li><NavLink to="/about">About</NavLink></li>
   <li><NavLink to="/contact">contact</NavLink></li>
   <li><NavLink to="/child">Child</NavLink></li>
@@ -32,8 +33,7 @@ function App() {
     <Route path="/contact" element={<Contact/>}/>
     <Route path="/child" element={<Child/>}/>
     <Route path="/event" element={<Event/>}/>
-    <Route path="/task" element={<TASK/>}/>
-
+    <Route path="/Tour" element={<TourList/>}/>
     </Routes>
     <Footer/>
    </div>
